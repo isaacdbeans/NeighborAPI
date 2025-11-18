@@ -19,21 +19,21 @@ curl -X POST "http://your-api.com/" \
         ]
 ```
 
-the returned payload will be in the following format
+the returned payload will be in the following json format
 
 ```json
 [
-        {
-            "location_id": "abc123",
-            "listing_ids": ["def456", "ghi789", "jkl012"],
-            "total_price_in_cents": 300
-        },
-        {
-            "location_id": "mno345",
-            "listing_ids": ["pqr678", "stu901"],
-            "total_price_in_cents": 305
-        }
-    ]
+  {
+    "location_id": "abc123",
+    "listing_ids": ["def456", "ghi789", "jkl012"],
+    "total_price_in_cents": 300
+  },
+  {
+    "location_id": "mno345",
+    "listing_ids": ["pqr678", "stu901"],
+    "total_price_in_cents": 305
+  }
+]
 ```
 this list of json objects will contain:
 
