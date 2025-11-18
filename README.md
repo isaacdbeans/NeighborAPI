@@ -4,7 +4,7 @@ API for Neighbor's take home project
 To use the API, make curl requests of the format
 
 ```bash
-curl -X POST "http://your-api.com/" \
+curl -X POST "https://API_URL/" \
         -H "Content-Type: application/json" \
         -d ' 
         [
