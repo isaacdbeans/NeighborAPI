@@ -1,5 +1,7 @@
 # NeighborAPI
-API for Neighbor's take home project
+API for Neighbor's take-home project
+
+Look at example.py to see an example of making a request with the Python requests library
 
 To use the API, make curl requests of the format
 
@@ -19,7 +21,7 @@ curl -X POST "https://API_URL/" \
         ]
 ```
 
-the returned payload will be in the following json format
+The returned payload will be in the following JSON format
 
 ```json
 [
@@ -35,13 +37,13 @@ the returned payload will be in the following json format
   }
 ]
 ```
-this list of json objects will contain:
+This list of JSON objects will contain:
 
-every possible location that could store all requested vehicles
+Every possible location that could store all the requested vehicles
 
-the cheapest possible combination of listings per location
+The cheapest possible combination of listings per location
 
-only one result per location_id
+Only one result per location_id
 
-and be sorted by the total price in cents, ascending
+The list will also be sorted by the total price in cents, ascending
 
